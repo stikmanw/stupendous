@@ -26,13 +26,27 @@
     <nav id="navigator">
         {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
         <ul>
-            <li class="ghost"><a href="{{@blog.url}}" title="Blog"></a></li>
-            <li class="twitter"><a href="https://twitter.com/dcefram" title="Twitter" target="_blank"></a></li>
-            <li class="github"><a href="https://github.com/dcefram" title="GitHub" target="_blank"></a></li>
+            <li class="linkedin"><a href="https://www.linkedin.com/pub/ben-carter/83/370/79a" title="LinkedIn"></a></li>
+            <li class="twitter"><a href="https://twitter.com/BenCarterDev" title="Twitter" target="_blank"></a></li>
+            <li class="github"><a href="https://github.com/stikmanw" title="GitHub" target="_blank"></a></li>
         </ul>
     </nav>
 
     {{{body}}}
+
+    <footer class="post-footer">
+
+        {{#if author}}
+        <section class="author">
+            <div class="authorimage" style="background: url({{author.image}})"></div>
+            <p class="attr">Author</p>
+            <h4><a href="{{author.website}}">{{author.name}}</a></h4>
+            <p class="bio">{{author.bio}}</p>
+            {{#if tags}}<div class="tags">Posted this article on {{tags}}</div>{{/if}}
+        </section>
+        {{/if}}
+
+    </footer>
 
     <footer class="site-footer">
         <div class="inner">
