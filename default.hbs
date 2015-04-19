@@ -24,7 +24,9 @@
 </head>
 <body class="{{body_class}}">
     <nav id="navigator">
-        {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
+        <a id="blog-logo" href="{{@blog.url}}">
+            <div class="bloglogo" style="background: url('images/code_cavern_72.png')"></div>
+        </a>
         <ul>
             <li class="linkedin"><a href="https://www.linkedin.com/pub/ben-carter/83/370/79a" title="LinkedIn"></a></li>
             <li class="twitter"><a href="https://twitter.com/BenCarterDev" title="Twitter" target="_blank"></a></li>
@@ -53,6 +55,8 @@
             {{!> footer-description}}
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved. | <a href="{{@blog.url}}/rss/" target="_blank">RSS</a></section>
             <section>Contents are licensed under... <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons</a>. Codes are <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> :)</section>
+            <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> and ❤</section>
         </div>
     </footer>

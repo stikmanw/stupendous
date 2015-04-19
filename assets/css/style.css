@@ -99,7 +99,7 @@ img {
  * Top Navigator
  */
 #navigator {
-  background: #0b0b0b;
+  background: #212328;
   max-width: 100%;
   margin: 0;
   overflow: hidden;
@@ -109,13 +109,14 @@ img {
 }
 #navigator #blog-logo {
   display: inline-block;
-  max-width: 80px;
+  /*max-width: 80px;*/
   max-height: 80px;
   text-align: center;
+  background-image: url("../images/code_cavern_72.png"); 
   float: left;
 }
 #navigator #blog-logo .bloglogo {
-  width: 80px;
+ /* width: 80px; */
   height: 80px;
 }
 #navigator ul {
@@ -123,20 +124,35 @@ img {
   width: auto;
 }
 #navigator ul li.ghost a {
-  background-color: #60666a;
+ /* background-color: #60666a; */
   background-image: url("../images/ghost.png");
 }
 #navigator ul li.twitter a {
-  background-color: #55acee;
+ /* background-color: #55acee; */
   background-image: url("../images/twitter.png");
 }
 #navigator ul li.github a {
-  background-color: #000;
+/*   background-color: #000; */
   background-image: url("../images/github.png");
 }
 #navigator ul li.linkedin a {
-  background-color: #0077B5;
+/*  background-color: #0077B5; */
   background-image: url("../images/linkedin.png"); 
+}
+
+.twitter a:hover {
+  background-color: #55acee; 
+}
+.github a:hover {
+  background-color: #000;
+}
+.linkedin a:hover {
+  background-color: #0077B5;
+}
+
+.twitter, .github, .linkedin {
+  -webkit-transition: background-size ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 #navigator ul li {
@@ -153,8 +169,8 @@ img {
   padding: 0;
   width: 80px;
   height: 80px;
-  -webkit-transition: background-size ease 0.5s;
-  transition: background-size ease 0.5s;
+ /* -webkit-transition: background-size ease 0.5s; */
+ /* transition: background-size ease 0.5s; */
 }
 #navigator ul li a:hover {
   background-size: 60px auto;
