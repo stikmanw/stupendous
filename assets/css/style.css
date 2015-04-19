@@ -1,8 +1,7 @@
-@import url("//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300");
-@import url("//fonts.googleapis.com/css?family=Amatic+SC");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-@import url(http://fonts.googleapis.com/css?family=Exo+2:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 @import url(http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css);
+
 /**
  * Core styles
  */
@@ -27,7 +26,7 @@ p,
 li,
 dt,
 dd {
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif;
+  font-family: 'Oxygen', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif;
 }
 h1,
 .post-meta {
@@ -84,7 +83,7 @@ p code {
 }
 h1 {
   color: #000;
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Oxygen', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   font-size: 60px;
   font-weight: bold;
   line-height: 60px;
@@ -135,6 +134,11 @@ img {
   background-color: #000;
   background-image: url("../images/github.png");
 }
+#navigator ul li.linkedin a {
+  background-color: #0077B5;
+  background-image: url("../images/linkedin.png"); 
+}
+
 #navigator ul li {
   float: left;
   height: 80px;
@@ -171,7 +175,7 @@ img {
   margin: 0;
   border: 0;
   padding: 0;
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   text-align: center;
 }
 #site-head h3 {
@@ -228,7 +232,7 @@ article header {
   padding: 3em 0.5em 0;
 }
 article header .post-title {
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Oxygen', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   font-size: 35px;
 }
 article .post-excerpt {
@@ -239,7 +243,7 @@ article.preview {
   text-align: center;
 }
 article.preview p.readmore {
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   margin-top: 1em;
   font-weight: 400;
 }
@@ -284,7 +288,7 @@ article.preview p.readmore a:hover {
 }
 .post-header h1 {
   color: #fff;
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Oxygen', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   font-size: 40px;
 }
 .post-header .post-meta {
@@ -411,7 +415,7 @@ h1.blog-title a:hover {
   text-decoration: none;
 }
 h2 {
-  font-family: 'Exo 2', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   margin-top: 1.5em;
   text-transform: uppercase;
   font-weight: 300;
